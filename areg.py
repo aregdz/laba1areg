@@ -7,6 +7,7 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 print("Вас приветствует Арег")
+print("МЫ готовы помочь вам в решении задач")
 print("Выберите операцию:")
 print("m. Сложение")
 print("z. Вычитание")
