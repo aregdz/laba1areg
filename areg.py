@@ -6,11 +6,11 @@ def multiply(x, y):
     return x * y
 def divide(x, y):
     return x / y
-
+print("Вас приветствует Арег")
 print("Выберите операцию:")
 print("m. Сложение")
 print("z. Вычитание")
-
+print("d. Умножение")
 print("k. Деление")
 choice = input("Введите номер операции (1-4): ")
 num1 = float(input("Введите первое число: "))
@@ -27,4 +27,4 @@ elif choice == 'd':
 elif choice == 'k':
     print(num1, "/", num2, "=", divide(num1,num2))
 else:
-    print("Неверный выбор операции")
+    print("Повторите попытку")
