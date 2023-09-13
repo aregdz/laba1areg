@@ -8,6 +8,8 @@ def divide(x, y):
     return x / y
 
 print("Выберите операцию:")
+print("1. Сложение")
+print("2. Вычитание")
 
 choice = input("Введите номер операции (1-4): ")
 num1 = float(input("Введите первое число: "))
